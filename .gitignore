@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local data and generated results
+data_sources/*
+!data_sources/README.md
+step1/outputs/
+
+# Local tooling
+.vscode/
+.idea/
+*.log
